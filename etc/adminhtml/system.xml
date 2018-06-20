@@ -26,11 +26,11 @@
                 <field id="title" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Title</label>                        
                 </field>
-                <field id="merchant_private_key" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="0">
+                <field id="merchant_private_key" translate="label" type="password" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Private Key</label>
                     <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
                 </field> 
-                <field id="merchant_public_key" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="0">
+                <field id="merchant_public_key" translate="label" type="password" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Public Key</label>                    
                     <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
                 </field>
